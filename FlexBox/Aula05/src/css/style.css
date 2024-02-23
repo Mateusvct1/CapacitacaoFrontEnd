@@ -1,0 +1,22 @@
+
+@import url('/FlexBox/Aula04/src/css/style.css');
+
+
+.container{
+    justify-content:space-around;
+
+}
+/* a direita
+
+.horizontal{
+    flex-direction: row-reverse;
+}
+*/
+
+/* a esquerda
+
+.horizontal{
+    flex-direction: row;
+}
+
+*/

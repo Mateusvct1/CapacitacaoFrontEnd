@@ -1,0 +1,14 @@
+# PROPRIEDADES PARA CONTAINERS
+
+    *   display:flex; -> Define um container flexível.Isso significa que os itens filhos do container serão alinhados em uma linha flexível. 
+
+    *   flex-direction: column; -> Organiza os itens filhos do container em uma coluna. Isso significa que os itens serão empilhados verticalmente. 
+
+    *   flex-wrap:wrap; -> Permite que os itens filhos do container sejam quebrados e organizados em várias linhas se não houver espaço suficiente em uma única linha. 
+
+    *   flex-flow -> É uma propriedade abreviada para flex-direction e flex-wrap propriedades.
+
+    *   justify-content -> Define os alinhamentos dos items ao longo do eixo principal(main axis) do container. Vale salientar que o padrão dos items é ficar alinhados ao esquerda.
+    Obs: Será padrão a esquerda se o flex-direction: row;, se for flex-direction: row-reverse; o padrão será a direita.
+
+# PROPRIEDADES PARA ITEMS

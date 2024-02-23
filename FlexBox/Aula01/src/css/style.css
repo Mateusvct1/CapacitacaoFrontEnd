@@ -1,0 +1,6 @@
+@import url('/FlexBox/Reset/reset.css');
+@import url('/FlexBox/cssPrincipal/style.css');
+
+.flexivel{
+    display: flex;
+}

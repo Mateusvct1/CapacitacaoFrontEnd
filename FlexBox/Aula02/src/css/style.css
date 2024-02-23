@@ -1,0 +1,13 @@
+
+
+@import url('/FlexBox/Aula01/src/css/style.css');
+
+
+.flexivel{
+    display: flex;
+    
+}
+
+.vertical{
+    flex-direction: column;
+}

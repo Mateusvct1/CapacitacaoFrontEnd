@@ -1,0 +1,17 @@
+
+@import url('/FlexBox/Aula03/src/css/style.css');
+
+
+
+.fluxo-horizontal-quebra{
+    
+    flex-flow: row wrap;
+}
+
+/*
+.fluxo-horizontal-sem-quebra{
+    
+    flex-flow: row nowrap;
+} esse sé o padrão do flex 
+
+*/
