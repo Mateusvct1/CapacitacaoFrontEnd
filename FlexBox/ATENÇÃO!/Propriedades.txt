@@ -11,4 +11,12 @@
     *   justify-content -> Define os alinhamentos dos items ao longo do eixo principal(main axis) do container. Vale salientar que o padrão dos items é ficar alinhados ao esquerda.
     Obs: Será padrão a esquerda se o flex-direction: row;, se for flex-direction: row-reverse; o padrão será a direita.
 
+    *   align-items -> Define os alinhamentos dos items no eixo cruzado
+
+    *   align-content -> Também trabalha no eixo cruzado(eixo secundário), mas sem o espaçamente entre os items.
+
 # PROPRIEDADES PARA ITEMS
+
+# ATALHOS
+
+1.  Crtl+Shift+L : Utilizado para renomear múltiplos itens que possuem o mesmo nome.

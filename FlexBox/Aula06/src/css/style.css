@@ -1,0 +1,17 @@
+
+@import url('/FlexBox/Aula05/src/css/style.css');
+
+.item{
+    /* o margin está em 5px como também o paddind
+    inserindo uma altura de 30px e usando o calc para colocar 3 items por linha veja como fica na pagina
+    */
+    height: 30px;
+    width: calc(33.333% - 20px);
+}
+.container{
+    height: 400px;
+    align-items: center;
+    
+
+}
+
