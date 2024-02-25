@@ -1,0 +1,28 @@
+
+@import url('/FlexBox/Aula07/src/css/style.css');
+
+.item{
+    /* o margin está em 5px como também o paddind
+    inserindo uma altura de 30px e usando o calc para colocar 3 items por linha veja como fica na pagina
+    */
+   height:auto;
+    width: auto;
+    
+}
+.tam0{
+    flex-grow: 0;
+}
+
+.tam1{
+    flex-grow: 1;
+}
+.tam2{
+    flex-grow: 2;
+}
+.container{
+    height: 400px;
+    justify-content: center;/*essa propriedade não funciona quando usado o flex-grow*/
+    align-content: space-between;
+
+}
+

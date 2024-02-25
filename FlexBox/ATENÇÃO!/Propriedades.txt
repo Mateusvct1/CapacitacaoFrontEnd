@@ -1,3 +1,4 @@
+
 # PROPRIEDADES PARA CONTAINERS
 
     *   display:flex; -> Define um container flexível.Isso significa que os itens filhos do container serão alinhados em uma linha flexível. 
@@ -16,6 +17,8 @@
     *   align-content -> Também trabalha no eixo cruzado(eixo secundário), mas sem o espaçamente entre os items.
 
 # PROPRIEDADES PARA ITEMS
+
+    *   flex-grow - Propriedade que dá a habilidade do item em aumentar ou não em relação ao container.
 
 # ATALHOS
 
