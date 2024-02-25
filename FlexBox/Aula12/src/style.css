@@ -1,0 +1,13 @@
+@import url('/FlexBox/cssPrincipal/style.css');
+@import url('/FlexBox/Aula11/src/css/style.css');
+
+.item{
+    width: auto;
+}
+
+.flex0{
+    /*um atalho para as propriedades: flex-grow, fle-shrink (seu valor padrão é 0) e flex-basis(seu valor padrão é 1)
+     no flex: o primeiro valor vai ser para flex-grow, se tiver informando 0, significa que está sendo configurado flex-grow 0, fle-shrink 1, flex-basis
+    */
+    flex: 0;
+}
