@@ -22,7 +22,9 @@
 
     *   flex-basis -> Propriedade especifica o comprimento inicial de um item flexível.
     
-    *   oder -> altera a ordem dos items.   
+    *   oder -> altera a ordem dos items. 
+
+    *   flex-shrink -> Tem a capacidade de determinar que o elemento vai reduzir dentro de um container. Quanto maior o valor do shrink maior será sua capacidade de redução. 
 
 # ATALHOS
 

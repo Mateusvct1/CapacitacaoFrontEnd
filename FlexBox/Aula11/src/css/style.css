@@ -1,0 +1,41 @@
+
+@import url('/FlexBox/cssPrincipal/style.css');
+@import url('/FlexBox/Aula01/src/css/style.css');
+
+.item{
+    width: 200px;
+}
+
+
+.tam0{
+    flex-grow: 0;
+}
+
+.tam1{
+    flex-grow: 1;
+}
+.tam2{
+    flex-grow: 2;
+}
+.container {
+    max-width: 600px;
+    justify-content: center;
+    height: 400px;
+    align-content: space-between;
+    align-items: center;
+}
+
+.reduzir0{
+
+    flex-shrink: 0;/* para perder a capacidade de reduzir*/
+}
+
+.reduzir1{
+
+    flex-shrink: 1;
+}
+
+.reduzir2{
+
+    flex-shrink: 2;
+}
