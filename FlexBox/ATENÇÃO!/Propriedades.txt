@@ -18,8 +18,11 @@
 
 # PROPRIEDADES PARA ITEMS
 
-    *   flex-grow - Propriedade que dá a habilidade do item em aumentar ou não em relação ao container.
+    *   flex-grow -> Propriedade que dá a habilidade do item em aumentar ou não em relação ao container.
+
+    *   flex-basis -> Propriedade especifica o comprimento inicial de um item flexível.
 
 # ATALHOS
 
 1.  Crtl+Shift+L : Utilizado para renomear múltiplos itens que possuem o mesmo nome.
+
