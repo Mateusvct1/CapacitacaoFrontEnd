@@ -21,6 +21,8 @@
     *   flex-grow -> Propriedade que dá a habilidade do item em aumentar ou não em relação ao container.
 
     *   flex-basis -> Propriedade especifica o comprimento inicial de um item flexível.
+    
+    *   oder -> altera a ordem dos items.   
 
 # ATALHOS
 
