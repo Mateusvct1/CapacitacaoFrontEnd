@@ -1,0 +1,24 @@
+@import url('/FlexBox/cssPrincipal/style.css');
+@import url('/FlexBox/Aula12/src/style.css');
+
+
+.container{
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal{
+    flex-direction: row;
+}
+
+.topo{
+    align-self: flex-start;
+}
+
+.meio {
+    align-self: center;
+
+}
+.base{
+    align-self: flex-end;
+}

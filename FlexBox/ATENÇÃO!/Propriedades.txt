@@ -25,7 +25,8 @@
     *   oder -> altera a ordem dos items. 
 
     *   flex-shrink -> Tem a capacidade de determinar que o elemento vai reduzir dentro de um container. Quanto maior o valor do shrink maior será sua capacidade de redução.
-    *   flex -> Um atalho para usar ao mesmo tempo as propriedades: flex-grow, fle-shrink (seu valor padrão é 0) e flex-basis
+    *   flex -> Um atalho para usar ao mesmo tempo as propriedades: flex-grow, fle-shrink (seu valor padrão é 0) e flex-basis.
+    *   align-self -> Permite configurar o alinhamento de um único item dentro do grupo de elementos.
 
 # ATALHOS
 
