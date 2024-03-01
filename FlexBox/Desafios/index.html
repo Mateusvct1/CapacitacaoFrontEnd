@@ -3,25 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/FlexBox/Desafios/style.css">
+    <link rel="stylesheet" href="/FlexBox/Desafios/assets/css/style.css">
     <title>Pratica</title>
 </head>
 <body>
-    <div class="barra">
-        <header class="logo">
-            <a href="#">Logo</a>
-        </header>
-        <nav>
-            <ul>
-                <li>Menu</li>
-                <li>Sobre</li>
-                <li>Contato</li>
-            </ul>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>AltoTech Juniors</h1>
+                <img src="/FlexBox/Desafios/assets/img/pessoa.png" alt="">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button><img onclick="aparecer()" class="icon" src="/FlexBox/Desafios/assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
         </nav>
-
-    </div>
-    
-
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </header>
         <div class="container">
             <div class="item">Item 01</div>
             <div class="item">Item 02</div>
@@ -35,6 +45,6 @@
             <div class="item tam4">Item 4</div>
             <div class="item tam5">Item 5</div>
         </div>
-    
+    <script src="/FlexBox/Desafios/assets/js/script.js"></script>
 </body>
 </html>
