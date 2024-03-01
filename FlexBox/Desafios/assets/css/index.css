@@ -1,0 +1,42 @@
+@import '/FlexBox/Desafios/assets/css/menu.css';
+@import '/FlexBox/Desafios/assets/css/Tablet&Mobile.css';
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial;
+    color: #000;
+}
+body{
+    background-color: #778899;
+    margin: 5px;
+ 
+}
+
+.container{
+
+    background-color: #DCDCDC;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container2{
+    display: flex;
+    align-items: flex-start;
+}
+.item{
+
+    width: 100px;
+    background-color: #808080;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    margin: 10px;
+}
+

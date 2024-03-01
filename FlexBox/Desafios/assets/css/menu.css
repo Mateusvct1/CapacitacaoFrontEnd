@@ -1,0 +1,44 @@
+
+header{
+    background-color: #2F4F4F;
+    box-shadow: 0px 3px 10px #000000;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 2rem;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+img{
+    height: 40px;
+}
+.logo h1{
+    color: #fff;
+}
+.nav-list ul{
+    display: flex;
+    width: 18rem;
+    justify-content:space-around;
+    
+}
+.nav-list ul li .nav-link{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+
+
