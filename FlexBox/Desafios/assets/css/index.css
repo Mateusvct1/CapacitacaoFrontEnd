@@ -1,42 +1,223 @@
-@import '/FlexBox/Desafios/assets/css/menu.css';
-@import '/FlexBox/Desafios/assets/css/Tablet&Mobile.css';
+
 *{
-    margin: 0;
     padding: 0;
-    list-style: none;
-    text-decoration: none;
+    margin: 0;
     font-family: Arial;
-    color: #000;
 }
 body{
     background-color: #778899;
     margin: 5px;
  
 }
+.containerPrincipal{
+    margin: 5px;
+    max-width: 1280px;
+    margin: 0 auto; 
+   
+}
 
+/* barra de menu */
+header{
+    background-color: #2F4F4F;
+    box-shadow: 0px 3px 10px #000000;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    
+    padding: 1rem 2rem;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: .2s;
+    &:hover{
+        transform: scale(1.10);
+        cursor: pointer;
+    }
+}
+.logo h1{
+    color: #fff;
+    
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+    
+}
+.nav-list ul li{
+    transition: .2s;
+    &:hover{
+        transform: scale(1.10);
+        cursor: pointer;
+    }
+}
+.nav-item {
+    margin: 0 15px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+img{
+    height: 40px;
+}
+/* fim da barra de menu */
+
+/* container 1 e 2 */
+main{
+   display: flex;
+   margin-top: 20px;
+   flex-direction: column;
+   gap: 1rem;
+}
 .container{
-
-    background-color: #DCDCDC;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 800px;
+    background-color: #A9A9A9;
+    min-width: 400px;
     height: 200px;
+    width: 500px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     
+
 }
 #container2{
-    display: flex;
     align-items: flex-start;
-}
-.item{
 
-    width: 100px;
-    background-color: #808080;
+}
+
+.item {
     text-align: center;
-    padding: 8px;
-    border-radius: 15px;
-    margin: 10px;
+    padding: 10px;
+    font-size: 0.7rem;
+    background-color: #808080;
+    margin: 10px; 
+    border-radius: 10px;
+    
+    
+   }
+   
+/* fim dos containers */
+
+@media screen and (max-width:730px){
+    /* Barra de menu  */
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    
+    .mobile-menu-icon {
+        display: block;
+        transition: .2s;
+        &:hover{
+            transform: scale(1.10);
+            cursor: pointer;
+        }
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu ul li{
+        transition: .2s;
+        &:hover{
+            transform: scale(1.10);
+            cursor: pointer;
+        }
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+   
+    .open {
+        display: block;
+    }
 }
 
+/* fim da barra de menu */
+
+
+@media screen and (max-width:545px) {
+   /* Barra de menu */
+    .nav-bar{
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 10px;
+        align-items: center;
+        
+    }
+
+    .logo{
+        margin-top: 12px;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        gap:5px;
+        
+    }
+    .logo h1{
+        text-align: center;
+    }
+    img{
+        height: 30px;
+    }
+
+}
+/* Fim da barra de menu */
+
+/* container 1 e 2 */
+.container{
+    width: 250px;
+}
+/* Fim do container 1 e 2 */
+@media screen and (max-width:405px) {
+    .container{
+        min-width: 300px;
+        width: 125px;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    #container2{
+        min-width: 300px;
+        width: 125px;
+        
+       
+    }
+    
+    /* Fim do container 1 e 2 */
+}
