@@ -96,6 +96,21 @@ img{
     font-weight: 600;
             
 }
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    margin: 20px;
+    padding: 0px 10px;
+    
+    
+}
+footer .footer_content a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+}
 
 @media screen and (max-width:768px) {
     .menu{
@@ -116,4 +131,19 @@ img{
     margin-top: 10px;
    }
  
+}
+@media screen and (max-width:   180px) {
+    .logo h1{
+        font-size: 1rem;
+    }
+    .caixa{
+        height: 300px;
+        margin: 10px;
+    }
+   
+    
+    .item{
+        font-size: 0.8rem;
+    }
+
 }
