@@ -6,144 +6,16 @@
     list-style: none;
     font-size: 1.4rem;
     font-weight: 600;
-}
-body{
-    background-color: #e6d6b1;
-    height: 100vh;
+    
 }
 
+h1{
+    font-size: 40px;
+}
 
-.barra{
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(255, 128, 0);
-    margin: 1rem;
-    padding: 1.2rem;
-    box-shadow: 5px 5px 20px 2px rgb(92, 52, 12);
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
-}
-.barra #hamburgue{
-    display: none;
-}
 .container {
     max-width: 1280px;
     margin: 0 auto;
   
-
-}
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-}
-
-.menu{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
-}
-.menu ul{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-.menu ul li{
-    
-    display: flex;
-    padding: 10px 20px;
-}
-
-img{
-    height: 32px;
-}
-
-.caixa{
-     background-color: rgb(255, 128, 0);
-     border-radius: 10px;
-     display: flex;
-     max-width: 600px;
-     height: 200px;
-     margin: 0 auto;
-     justify-content: center;
-     text-align: center;
-     align-items: center;
-     flex-wrap: wrap;
-     
-}
-#caixa2{
-    margin-top: 10px;
-    padding-top: 10px;
-    align-items: flex-start;
-}
-
-.item{
-    background-color: aliceblue;
-    margin: 10px;
-    padding: 10px;
-    height: 45px;
-    border-radius: 15px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    font-size: .9rem;
-    font-weight: 600;
-            
-}
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    flex-direction: column;
-    margin: 20px;
-    padding: 0px 10px;
-    
-    
-}
-footer .footer_content a{
-    text-decoration: none;
-    color: black;
-    font-size: 0.7rem;
-}
-
-@media screen and (max-width:768px) {
-    .menu{
-        display: none;
-    }
-    .barra #hamburgue{
-        display: block;
-      
-    }
-}
-@media screen and (max-width:500px) {
-   .barra {
-    
-    justify-content: center;
-    
-   }
-   .barra img{
-    margin-top: 10px;
-   }
- 
-}
-@media screen and (max-width:   180px) {
-    .logo h1{
-        font-size: 1rem;
-    }
-    .caixa{
-        height: 300px;
-        margin: 10px;
-    }
-   
-    
-    .item{
-        font-size: 0.8rem;
-    }
 
 }

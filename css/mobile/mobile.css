@@ -1,0 +1,115 @@
+@media screen and (max-width:850px) {
+    .barra{
+        flex-direction: column;
+    }
+    .mobileMenu ul li a {
+        color: #000;
+        font-size: 1.2rem;
+        text-decoration: none;
+        transition: .2s;
+    }
+    .mobileMenu ul li:hover{
+        transform: scale(1.10);
+        cursor: pointer;
+    }
+
+    .mobileMenu ul li a:active{
+        font-weight: 800;
+        
+    }
+
+    .texto p{
+        width: 350px;
+    }
+}
+@media screen and (max-width:768px) {
+   
+    .barra{
+        display: flex;
+        gap: 10px;
+       
+    }        
+ 
+    .mobileMenu{
+        display: none;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .open{
+        display: block;
+    }
+    .mobileMenu ul li a {
+        text-align: center;       
+        display: block;
+        padding: 5px;           
+    }    
+    .menu{
+        display: none;
+    }
+    .barra #icone{
+       
+        display: block;
+        padding: 5px;
+
+    }
+    
+
+}
+@media screen and (max-width:368px) {
+   .barra {
+    
+    justify-content: center;
+    flex-direction: column;
+    
+   }
+   .logo{
+    flex-direction: column-reverse;
+   
+}
+   .barra img{
+    margin-top: 10px;
+   }
+   .logo h1{
+    font-size:1.4rem ;
+ }
+ .principal{
+    flex-direction: column;
+ }
+
+ .perfil{
+    height: 150px;
+}
+
+}
+@media screen and (max-width: 200px) {
+    
+    .logo h1{
+        font-size: 1rem;
+    }
+    .caixa{
+        height: 300px;
+        margin: 10px;
+    }
+   
+    
+    .item{
+        font-size: 0.8rem;
+    }
+    .principal{
+        
+     align-content: center; 
+    }
+    .perfil{
+        height: 100px;
+    }
+    
+    .texto-conteudo p{
+            
+        text-align: center;
+     
+    }
+    footer .footer_content a{
+        font-size: .5rem;
+      
+    }
+}
