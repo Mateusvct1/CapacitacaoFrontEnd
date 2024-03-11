@@ -1,12 +1,12 @@
 body {
-    background-color: #e6d6b1;
+    background-color: #3CB371;
 }
 
 .barra {
     align-items: center;
-    background-color: rgb(255, 128, 0);
+    background-color: #008000;
     border-radius: 20px;
-    box-shadow: 5px 5px 20px 2px rgb(92, 52, 12);
+    box-shadow: 5px 5px 20px 2px #2E8B57;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -14,6 +14,7 @@ body {
     margin: 15px 10px 25px 10px;
     padding: 20px;
     text-align: center;
+    color: #98FB98;
 }
 
 .barra #hamburgue {
@@ -37,6 +38,7 @@ body {
     background-color: transparent;
     display: none;
     height: 32px;
+    
 }
 
 .menu ul {
@@ -49,7 +51,7 @@ body {
 }
 
 .menu ul li a {
-    color: #000;
+    color: #98FB98;
     font-size: 1.2rem;
     text-decoration: none;
     transition: .2s;
@@ -75,4 +77,5 @@ body {
 /* para definir tamanho da imagem do hacker */
 .hacker {
     height: 32px;
+    
 }
