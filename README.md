@@ -1,12 +1,9 @@
 #   CAPACITAÇÃO DE FRONTE-END
 
 ## ESTUDOS SOBRE FLEXBOX
+## ESTUDOS SOBRE GRID
 
-1.  display: flex;
-2.  flex-direction;
-3.  flex-wrap;
-4.  flex-flow;
-5.  justy-content;
+### Implementando um projeto de portfolio
 
 
 ##### REFERÊNCIAS:
