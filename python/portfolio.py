@@ -1,18 +1,19 @@
-from flask import Flask, jsonify
+#from flask import Flask, jsonify
 
-app = Flask(__name__)
+#app = Flask(__name__)
 
-portfolio = {
-    "Nome": "Mateus Victor",
-    "Descrição": "Texto...",
-    "Projetos/Cursos": ["Projetos"],
-    "Habilidades": ["..."],
-    "Contato": "..."
-}
+#portfolio = {
+ #   "Nome": "Mateus Victor",
+  #  "Descrição": "Texto...",
+   #"Habilidades": ["..."],
+    #"Contato": "..."
+#}
 
-@app.route('/portfolio', methods=['GET'])
-def get_portfolio():
-    return jsonify(portfolio)
+#@app.route('/portfolio', methods=['GET'])
+#def get_portfolio():
+ #   return jsonify(portfolio)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+#if __name__ == '__main__':
+ #   app.run(debug=True)
+
+    
