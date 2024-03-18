@@ -1,0 +1,4 @@
+Barra de menu = #000000 - preto
+Letras = #FFFFFF - branco
+Ícones = #fa0202 - vermelho
+plano de fundo = (degradedo preto com cinza)
