@@ -1,0 +1,13 @@
+:root{
+
+    --body: linear-gradient(#807d7d, #000);
+    --barraMenu: #000000;
+    --footer:#000000;
+    --titulo: #fffff;
+    --tituloSobre: #fff;
+    --paragrafo:#ffffff;
+    --paragrafoSobre:#fff;
+    --sombra:5px 5px 20px 2px #474646;
+    --sombraCliq:#fff;
+    --sobre:#646161;
+}
