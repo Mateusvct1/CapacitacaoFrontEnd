@@ -12,8 +12,9 @@
     margin: 15px 10px 25px 10px;
     padding: 20px;
     text-align: center;
-    color: var(--paragrafo);
+    color: var(--textoMenu);
 }
+
 
 .barra #hamburgue {
     display: none;
@@ -49,7 +50,7 @@
 }
 
 .menu ul li a {
-    color: var(--paragrafo);
+    color: var(--textoMenu);
     font-size: 1.2rem;
     text-decoration: none;
     transition: .2s;

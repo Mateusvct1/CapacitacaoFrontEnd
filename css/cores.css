@@ -1,13 +1,23 @@
 :root{
 
-    --body: linear-gradient(#807d7d, #000);
-    --barraMenu: #000000;
-    --footer:#000000;
-    --titulo: #fffff;
-    --tituloSobre: #fff;
-    --paragrafo:#ffffff;
-    --paragrafoSobre:#fff;
-    --sombra:5px 5px 20px 2px #474646;
+    --body:#000;
+    --barraMenu: #dc0505;
+    --textoMenu: #fff;
+    /* cores da caixinha próximo a ft */
+    --primeiroTitulo: #fff;
+    --primeiroTexto:#ffffff;
+    --BTexto:#20201f;
+    /* fim da caixinha */
+    
+    /* cores caixa de sobre mim */
+    --tituloSobre:#fff;
+    --textoSobre:#fff;
+    /* fim caixa de sobre mim */
+
+    /* Outras cores */
+    --sombra:5px 5px 20px 2px #474444;
     --sombraCliq:#fff;
-    --sobre:#646161;
+    --BackgoundSobre:#20201f;
+    --textoFooter:#fcf2f2;
 }
+

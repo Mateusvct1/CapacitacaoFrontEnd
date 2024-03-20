@@ -11,6 +11,6 @@ footer{
 }
 footer .footer_content a{
     text-decoration: none;
-    color: var(--paragrafo);
+    color: var(--textoFooter);
     font-size: 0.7rem;
 }

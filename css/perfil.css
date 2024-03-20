@@ -1,3 +1,4 @@
+/* tudo que está dentro da main */
 .principal{
   
     border-radius: 10px;
@@ -39,6 +40,7 @@
       
     
 }
+
 .texto-conteudo{
     display: flex;
     margin: 10px;
@@ -46,9 +48,15 @@
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
-    border: 1px solid #cac1c1;
     border-radius: 10px;
-    color: var(--tituloSobre);
+    color: var(--primeiroTexto);
+    background-color: var(--BTexto);
+}
+
+.texto-conteudo:hover{
+    background-color: #dc0505;
+    color: #000;
+    
 }
 
 .texto-conteudo p{
@@ -73,18 +81,19 @@ h2{
 .sobre {
     margin: 10px;
     padding: 10px;
+    background-color: var(--BackgoundSobre);
+    max-width: 900px;
+    border-radius: 10px;
 }
 .sobre h2 {
     margin: 20px;
     padding: 20px;
 }
 .sobre p{
-    color: var(--paragrafoSobre);
+    color: var(--textoSobre);
     font-size: 1rem;
     margin: 20px;
     padding: 20px;
-    max-width: 900px;
-    background-color: var(--sobre);
-    border-radius: 10px;
+    
 
 }

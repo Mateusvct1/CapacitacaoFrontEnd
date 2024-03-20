@@ -9,7 +9,7 @@
     
 }
 body {
-    background-image: var(--body);
+    background-color: var(--body);
     height: 100vh;
 }
 h1{
