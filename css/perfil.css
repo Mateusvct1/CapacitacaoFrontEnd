@@ -66,8 +66,9 @@
 }
 .redeSociais{ 
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+    width: 200px;
+    justify-content: space-evenly;
+    padding: 5px;
 }
 h2{
     color: var(--tituloSobre);

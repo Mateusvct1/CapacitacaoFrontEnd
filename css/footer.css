@@ -6,11 +6,20 @@ footer{
     flex-direction: column;
     margin: 20px;
     padding: 0px 10px;
+    text-align: center;
     
-    
+}
+footer h4{
+    color: var(--textoFooter);
+    font-size: 12px;
+   
 }
 footer .footer_content a{
     text-decoration: none;
     color: var(--textoFooter);
-    font-size: 0.7rem;
+    font-size: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 2px;
 }

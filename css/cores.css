@@ -20,6 +20,14 @@
     --BackgoundSobre:#20201f;
     --textoFooter:#fcf2f2;
 
+
+    /* variavei para skill */
+
+    --tituloSkill:#fff;
+    --textSkill:#fff;
+    --boxSkill:#20201f;
+
+    /* fim das variveis */
     /* variaveis do formulário */
 
     --tituloFormulario: #fff;
