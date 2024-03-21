@@ -22,3 +22,82 @@ h1{
   
 
 }
+/* formulario */
+
+.formulario{
+    
+    margin: 10px;
+    padding: 10px;
+}
+
+#tituloFormulario{
+    font-family: sans-serif;
+    color: var(--tituloFormulario);
+    margin: 7px;
+    padding: 7px;
+}
+#nomeFormulario{
+    color: var(--nome);
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+#nome{
+    background-color: var(--BackgoundSobre);
+    margin-bottom: 20px;
+
+}
+#nome:hover{
+    background-color: #5c5c58;
+}
+
+#email{
+    color: var(--email);
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px;
+    
+}
+#emailF{
+    background-color: var(--BackgoundSobre);
+}
+#emailF:hover{
+    background-color: #5c5c58;
+}
+fieldset{
+    border: 0;
+}
+input, textarea, button{
+    border-radius: 5px;
+}
+.divMensagem{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    justify-content: start;
+   
+    
+}
+.divMensagem label{
+    color: var(--mensagem);
+    padding: 10px;
+    margin: 5px;
+    
+}
+textarea{
+    background-color: var(--BackgoundSobre);
+}
+textarea:hover{
+    background-color: #5c5c58;
+}
+
+
+.botao{
+    font-size: 1.2rem;
+    padding: 0.2rem 0.6rem;
+    background-color: var(--Bbotao);
+    color: var(--fonteBotao);
+    margin: 25px;
+    position: absolute;
+}

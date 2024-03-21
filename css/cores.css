@@ -19,5 +19,14 @@
     --sombraCliq:#fff;
     --BackgoundSobre:#20201f;
     --textoFooter:#fcf2f2;
+
+    /* variaveis do formulário */
+
+    --tituloFormulario: #fff;
+    --nome:#fff;
+    --email:#fff;
+    --Bbotao:#dc0505;
+    --mensagem: #fff;
+    --fonteBotao:#fff;
 }
 

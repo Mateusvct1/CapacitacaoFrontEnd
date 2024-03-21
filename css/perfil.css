@@ -53,11 +53,6 @@
     background-color: var(--BTexto);
 }
 
-.texto-conteudo:hover{
-    background-color: #dc0505;
-    color: #000;
-    
-}
 
 .texto-conteudo p{
     display: flex;
