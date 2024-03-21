@@ -8,11 +8,12 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-
-
+    
+    
 }
 
 .container-conteudo{
+    visibility: hidden;
     display: flex;
     flex-direction: column;
     
@@ -30,6 +31,7 @@
     margin: 10px;
     padding: 8px;
     box-shadow: var(--sombra);
+    visibility: hidden;
     
 }
 
@@ -80,6 +82,7 @@ h2{
     background-color: var(--BackgoundSobre);
     max-width: 900px;
     border-radius: 10px;
+    visibility: hidden;
 }
 .sobre h2 {
     margin: 20px;

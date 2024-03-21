@@ -19,6 +19,6 @@ Disponível em: [Fontawesome](https://fontawesome.com). Acesso em 21. março. 20
 
 Disponível em: [Getbootstrap](https://icons.getbootstrap.com/). Acesso em 21. março. 2024.
 
-
+Disponível em: [Scrollrevealjs](https://scrollrevealjs.org/guide/installation.html). Acesso em 21. março. 2024.
 
 

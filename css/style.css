@@ -27,6 +27,7 @@ h1{
     
     margin: 10px;
     padding: 5px;
+    visibility: hidden;
  
 }
 
@@ -76,6 +77,7 @@ h1{
 .hobbies{
     margin: 10px;
     padding: 5px;
+    visibility: hidden;
    
 }
 .hobbies .hobbies-line{
@@ -130,6 +132,10 @@ h1{
     margin: 10px;
     padding: 10px;
 }
+input{
+    height: 45px;
+    padding: 5px;
+}
 
 #tituloFormulario{
     font-family: sans-serif;
@@ -146,8 +152,9 @@ h1{
 #nome{
     background-color: var(--BackgoundSobre);
     margin: 10px;
-   
-
+    color: var(--nome);
+    width: 300px;
+    font-size: 1rem;
 }
 #nome:hover{
     background-color: #5c5c58;
@@ -161,11 +168,14 @@ h1{
     font-family: sans-serif;
     padding: 10px;
     
+    
 }
 #emailF{
     background-color: var(--BackgoundSobre);
     margin-left: 14px;
-   
+    color: var(--email);
+    width: 300px;
+    font-size: .9rem;
 }
 #emailF:hover{
     background-color: #5c5c58;
@@ -190,6 +200,14 @@ input, textarea, button{
     padding: 10px;
     margin: 5px;
     
+}
+#textMensagem{
+    font-size: 1rem;
+    text-align: start;
+}
+#mensagem{
+    color:var(--mensagem);
+   font-size: 1rem;
 }
 textarea{
     background-color: var(--BackgoundSobre);

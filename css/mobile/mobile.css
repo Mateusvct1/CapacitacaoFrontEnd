@@ -50,15 +50,20 @@
        
         display: block;
         padding: 5px;
-
     }
 
     .barra #icone:hover{
         cursor: pointer;
     }
+    #nomeFormulario{
+        font-size: 1rem;
+    }
     
     #nome{
         margin: 20px;
+    }
+    #email{
+        font-size: 1rem;
     }
     #emailF{
         margin: 10px;
