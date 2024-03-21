@@ -3,7 +3,7 @@
         flex-direction: column;
     }
     .mobileMenu ul li a {
-        color: #000;
+        color: var(--paragrafo);
         font-size: 1.2rem;
         text-decoration: none;
         transition: .2s;
@@ -50,7 +50,25 @@
        
         display: block;
         padding: 5px;
+    }
 
+    .barra #icone:hover{
+        cursor: pointer;
+    }
+    #nomeFormulario{
+        font-size: 1rem;
+    }
+    
+    #nome{
+        margin: 20px;
+    }
+    #email{
+        font-size: 1rem;
+    }
+    #emailF{
+        margin: 10px;
+        padding: 0;
+        
     }
     
 
@@ -80,6 +98,15 @@
     height: 150px;
 }
 
+#tituloFormulario{
+    text-align: center;
+}
+
+}
+
+
+.divMensagem{
+    text-align: center;
 }
 @media screen and (max-width: 200px) {
     
