@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/menuImport.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/js/scroll.js" defer></script>
+    <title>FlexBox</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="barra">
+                <div class="logo">
+                    <h1>
+                        MVCT
+                    </h1>
+                    <img class="hacker" src="/img/hacker.png" alt="icone">
+                </div>
+                <!-- fim da logo -->
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="mailto:mateusvictorct@gmail.com">Contato</a></li>
+                    </ul>
+                </nav>
+                <!-- fim do menu -->
+                <i class="fa-solid fa-bars" id="icone" onclick="aparecer()"></i>
+                <div class="mobileMenu">
+                    <ul id="mobile_list">
+                        <li class="mobilie_item"><a href="#inicio">Inicio</a></li>
+                        <li class="mobilie_item"><a href="#sobre">Sobre</a></li>
+                        <li class="mobilie_item"><a href="#sobre">Contato</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+            <!-- fim da barra -->
+        </div>
+        <!-- fim do container -->
+    </header>
+    <!--  fim do header -->
+    <div class="container">
+        <!-- principal -->
+        <main>
+            <section class="principal">
+                <img class="perfil" src="/img/foto do meu perfil.png" alt="foto de perfil">
+                <div class="container-conteudo">
+
+                    <div class="texto-conteudo">
+                        <h2 class="SubTituloPerfil">Olá, Meu Nome é Mateus Victor </h2>
+                        <p>
+                            Seja bem-vindo ao meu portfólio! Aqui, você encontrará uma ampla variedade de informações e
+                            realizações minhas. Agradeço antecipadamente pela sua visita e espero que encontre o que
+                            procura. Sinta-se à vontade para explorar!
+
+                        </p>
+                        <div class="redeSociais">
+                            <a href="https://br.linkedin.com/in/mateusvct1" class="bi bi-linkedin">
+                            </a>
+                            <a href="https://github.com/mateusvct1" class="bi bi-github">
+                            </a>
+                            <a href="https://www.instagram.com/mateusvct1/" class="bi bi-instagram">
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sobre">
+                <h2>Sobre mim</h2>
+                <p>
+                    Além da minha paixão por programação e desenvolvimento front-end, também venho estudando Excel
+                    básico. No meu tempo livre, gosto de aprender a tocar violão, ouvir música e jogar. Tenho uma
+                    curiosidade insaciável, especialmente quando se trata de informática. Estou sempre em busca de novos
+                    conhecimentos e habilidades para expandir meu repertório na área de tecnologia da informação.
+                </p>
+            </section>
+            <!-- skil -->
+            <section class="skill">
+                <h3 class="skill-titulo">Skill</h3>
+                <div class="skill-line">
+                    <div class="skill-box">
+                        <ul>
+                            <li class="skill-image bi bi-filetype-html"></li>
+                            <li class="skill-name">Html 5</li>
+                        </ul>
+                    </div>
+                    <div class="skill-box">
+                        <ul>
+                            <li class="skills-img bi bi-filetype-js"></li>
+                            <li class="skill-name">Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-box">
+                        <ul>
+                            <li class="skills-img bi bi-filetype-sass"></li>
+                            <li class="skill-name">Sass</li>
+                        </ul>
+                    </div>
+                    <div class="skill-box">
+                        <ul>
+                            <li class="skills-img bi bi-filetype-css"></li>
+                            <li class="skill-name ">CSS</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+            <!-- fim da skill -->
+
+            <!-- Hobbies -->
+            <section class="hobbies">
+                <h3 class="hobbies-titulo">Hobbies</h3>
+                <div class="hobbies-line">
+                    <div class="hobbies-box">
+                        <ul>
+                            <li class="hobbies-image bi bi-controller"></li>
+                            <li class="hobbies-name">jogar</li>
+                        </ul>
+                    </div>
+                    <div class="hobbies-box">
+                        <ul>
+                            <li class="hobbies-image bi bi-music-note-beamed"></li>
+                            <li class="hobbies-name">Ouvir Música</li>
+                        </ul>
+                    </div>
+                    <div class="hobbies-box">
+                        <ul>
+                            <li class="hobbies-image fa-solid fa-guitar"></li>
+                            <li class="hobbies-name">Tocar Violão</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <!-- fim do Hobbies -->
+            <section class="formacaoAcademica">
+            </section>
+            <!-- formulario -->
+            <section class="formulario">
+                <h1 id="tituloFormulario">Contato</h1>
+                <br>
+                <form action="https://formsubmit.co/mateusvictor1@hotmail.com" method="POST" id="#form">
+                    <fieldset class="grupo">
+                        <div>
+                            <label for="nome" id="nomeFormulario">Nome:</label>
+                            <input type="text" name="nome" id="nome" required>
+                        </div>
+                        <div class="divEmail">
+                            <label for="emailF" id="email">E-mail:</label>
+                            <input type="email" name="email" id="emailF" required>
+                        </div>
+                    </fieldset>
+                    <div class="divMensagem">
+                        <br>
+                        <label for="mensagem" id="textMensagem">Deixe sua mensagem aqui</label>
+                        <textarea name="mensagem" id="mensagem" cols="6" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="botao">Enviar</button>
+                </form>
+
+            </section>
+            <!-- fim do formulario -->
+            <!-- fim da principal -->
+
+        </main>
+        <hr>
+        <footer>
+            <div class="footer_content">
+                <p>Desenvolvido por Mateus Victor & Midhiã Queiroz</p>
+                <p>Emails para contato:
+                    <a href="mailto:mateusvictorct@gmail.com">mateusvictorct@gmail.com</a><a
+                        href="mailto:queirozmidhian9@gmail.com">queirozmidhian9@gmail.com</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/js/script.js"></script>
+    </div>
+
+    <!-- fim da segunda container -->
+</body>
+
+</html>
