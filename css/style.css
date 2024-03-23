@@ -65,8 +65,6 @@ h1{
 .container {
     max-width: 1280px;
     margin: 0 auto;
-  
-
 }
 
 /* menu barra */
@@ -177,7 +175,7 @@ h1{
     visibility: hidden;
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
 }
 .redeSociais{
     margin: 20px auto;
@@ -233,24 +231,35 @@ h2{
     
     font-size: 1.5rem;
 }
+.container-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .sobre {
-    margin: 10px;
-    padding: 10px;
+    margin: 0 25px;
+    padding: 5px;
     background-color: var(--BackgoundSobre);
     max-width: 900px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
     visibility: hidden;
 }
 .sobre h2 {
-    margin: 20px;
-    padding: 20px;
+    margin:  10px ;
+    padding: 5px;
 }
 .sobre p{
     
     font-size: 1rem;
-    margin: 20px;
-    padding: 20px;
-    
+    margin: 10px;
+    padding: 10px;
+    font-weight: 100;
+    text-align: justify;
 
 }
 /* fim da principal */
@@ -350,32 +359,47 @@ h2{
 
 /* Fim de Hobbies */
 /* formação */
+
+#formacao-container{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
 .formacao{
     background-color: #20201f;
-    margin: 10px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     border-radius: 10px;
+    margin: 0 auto;
     visibility: hidden;
 }
 .formacao img{
     height: 128px;
     padding: 15px;
     margin: 5px;
-   
+    
+    
 }
 .formacao .formacao-titulo{
     font-size: 1.2rem;
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 .formacao .formacao-subTitulo{
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: .8rem;
+    font-weight: 800;
     padding: 5px;
 }
 .formacao .formacaoP{
     font-weight: 100;
-    font-size: 1rem;
+    font-size: .7rem;
     padding: 5px;
 }
 /* formulario */
@@ -384,11 +408,11 @@ h2{
     
     margin: 10px;
     padding: 10px;
+    
 }
 input{
     height: 45px;
-    padding: 5px;
-}
+   }
 
 #tituloFormulario{
     font-family: sans-serif;
@@ -397,45 +421,46 @@ input{
     padding: 5px;
     text-align: center;
 }
-
-
-#nomeFormulario{
-    
-    font-family: sans-serif;
-    margin: 10px;
+.grupo{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
     padding: 10px;
-    font-size: 1.2rem;
-    
+   
 }
+#labelNome{
+    font-size: 1rem;
 
-#nome{
+}
+#InputNome{
     background-color: var(--BackgoundSobre);
-    margin: 10px;
+    margin: 10px 20px;
     color: var(--nome);
     width: 300px;
     font-size: 1rem;
+    
 }
-#nome:hover{
+#InputNome:hover{
     background-color: #5c5c58;
 }
-.divEmail{
-    margin: 10px;
-}
 
-#email{
+#labelEmail{
+    font-size: 1rem;
+}
+#InputEmail{
     font-family: sans-serif;
     padding: 10px;
     font-size: 1.2rem;
     
 }
-#emailF{
+#InputEmail{
     background-color: var(--BackgoundSobre);
     margin-left: 14px;
     color: var(--email);
     width: 300px;
     font-size: .9rem;
 }
-#emailF:hover{
+#email:hover{
     background-color: #5c5c58;
 }
 fieldset{

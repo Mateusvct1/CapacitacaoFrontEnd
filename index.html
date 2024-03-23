@@ -88,15 +88,20 @@
             </section>
             <!-- fim section principal -->
             <!-- sobre -->
-            <section class="sobre">
-               <h2>Sobre mim</h2>
-               <p>
-                  Além da minha paixão por programação e desenvolvimento front-end, também venho estudando Excel
-                  básico. No meu tempo livre, gosto de aprender a tocar violão, ouvir música e jogar. Tenho uma
-                  curiosidade insaciável, especialmente quando se trata de informática. Estou sempre em busca de novos
-                  conhecimentos e habilidades para expandir meu repertório na área de tecnologia da informação.
-               </p>
-            </section>
+            <div class="container-sobre">
+               <div class="sobre-container">
+
+                  <section class="sobre">
+                     <h2>Sobre mim</h2>
+                     <p>
+                        Além da minha paixão por programação e desenvolvimento front-end, também venho estudando Excel
+                        básico. No meu tempo livre, gosto de aprender a tocar violão, ouvir música e jogar. Tenho uma
+                        curiosidade insaciável, especialmente quando se trata de informática. Estou sempre em busca de novos
+                        conhecimentos e habilidades para expandir meu repertório na área de tecnologia da informação.
+                     </p>
+                  </section>
+               </div>
+            </div>
             <!-- fim da sobre -->
             <!-- skil -->
             <section class="skill">
@@ -154,32 +159,32 @@
                </div>
             </section>
             <!-- fim do Hobbies -->
-            <section class="formacaoAcademica">
-            </section>
             <!-- formação -->
-            <section class="formacao">
-               <h3 class="formacao-titulo">Formação acadêmica</h3>
-               <div class="formacao-img">
-                  <img src="/img/BrasaoUfersa.png" alt="">
-                  <h4 class="formacao-subTitulo">Interdisciplinar em Tecnologia da Informação</h4>
-                  <p class="formacaoP">Em andamento - 2022 - UFERSA</p>
-               </div>
-            </section>
+          <div class="container" id="formacao-container">
+               <section class="formacao">
+                  <h3 class="formacao-titulo">Formação acadêmica</h3>
+                  <div class="formacao-img">
+                     <img src="/img/BrasaoUfersa.png" alt="">
+                     <h4 class="formacao-subTitulo">Interdisciplinar em Tecnologia da Informação</h4>
+                     <p class="formacaoP">Em andamento - 2022 - UFERSA</p>
+                  </div>
+               </section>
+            </div>
             <!--  fim da formação -->
 
             <!-- formulario -->
             <section class="formulario">
                <h1 id="tituloFormulario">Contato</h1>
-               <br>
-               <form action="https://formsubmit.co/mateusvictor1@hotmail.com" method="POST" id="#form">
+           
+               <form action="https://formsubmit.co/mateusvictor1@hotmail.com" method="POST" id="form">
                   <fieldset class="grupo">
-                     <div class="divNome">
-                        <label for="nome" id="nomeFormulario">Nome:</label>
-                        <input type="text" name="nome" id="nome" required>
+                     <div id="DivNome">
+                        <label for="InputNome" id="labelNome">Nome:</label>
+                        <input type="text" name="nome" id="InputNome" autocomplete="on" required>
                      </div>
-                     <div class="divEmail">
-                        <label for="emailF" id="email">E-mail:</label>
-                        <input type="email" name="email" id="emailF" required>
+                     <div id="DivEmail">
+                        <label for="InputEmail" id="labelEmail">E-mail:</label>
+                        <input type="email" name="email" id="InputEmail" autocomplete="on" required>
                      </div>
                   </fieldset>
                   <div class="divMensagem">
