@@ -377,13 +377,32 @@ h2{
     margin: 0 auto;
     visibility: hidden;
 }
+.formacao-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.formacao-img{
+    margin: 10px;
+    background-color: #4b4b48;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 .formacao img{
     height: 128px;
-    padding: 15px;
+    padding: 5px;
     margin: 5px;
-    
-    
+       
 }
+ .formacao-img i {
+     padding: 5px;
+     font-size: 64px;
+}
+
 .formacao .formacao-titulo{
     font-size: 1.2rem;
     padding: 10px;
@@ -401,6 +420,54 @@ h2{
     font-weight: 100;
     font-size: .7rem;
     padding: 5px;
+    display: flex;
+    
+}
+
+/* experiências profissionais */
+
+.containerExp{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+    
+}
+.experiencias{
+    
+    padding: 10px;
+    visibility: hidden;
+}
+.exp-boxPai{
+    display: flex;
+    justify-content: center;
+}
+.experiencias-box{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #20201f;
+   
+}
+.experiencias-box a{
+    margin: 5px;
+    padding: 5px;
+}
+.experiencias .expTitulo{
+    font-size: 1.2rem;
+    padding: 5px;
+    margin: 5px;
+    
+    
+}
+.experiencias .expSubTitulo{
+    font-size: .6rem;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
 /* formulario */
 

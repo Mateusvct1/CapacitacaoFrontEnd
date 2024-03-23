@@ -48,9 +48,17 @@ revelar.reveal('.formacao',{
     delay:500
 
 })
-revelar.reveal('.formulario',{
+
+revelar.reveal('.experiencias',{
 
     duration:7000,
+    distance:'90px',
+    delay:500
+
+})
+revelar.reveal('.formulario',{
+
+    duration:8000,
     distance:'90px',
     delay:500
 
@@ -58,7 +66,7 @@ revelar.reveal('.formulario',{
 
 revelar.reveal('footer',{
 
-    duration:8000,
+    duration:9000,
     distance:'90px',
     delay:500
 
