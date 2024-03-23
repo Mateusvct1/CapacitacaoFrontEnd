@@ -41,9 +41,16 @@ revelar.reveal('.hobbies',{
 
 })
 
-revelar.reveal('.formulario',{
+revelar.reveal('.formacao',{
 
     duration:6000,
+    distance:'90px',
+    delay:500
+
+})
+revelar.reveal('.formulario',{
+
+    duration:7000,
     distance:'90px',
     delay:500
 
@@ -51,7 +58,7 @@ revelar.reveal('.formulario',{
 
 revelar.reveal('footer',{
 
-    duration:7000,
+    duration:8000,
     distance:'90px',
     delay:500
 

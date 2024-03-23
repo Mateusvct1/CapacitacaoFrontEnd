@@ -55,12 +55,17 @@
     .barra #icone:hover{
         cursor: pointer;
     }
+    .divNome{
+        display: flex;
+        flex-direction: column;
+    }
     #nomeFormulario{
         font-size: 1rem;
     }
     
     #nome{
-        margin: 20px;
+        margin: 0 20px ;
+        
     }
     #email{
         font-size: 1rem;

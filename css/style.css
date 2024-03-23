@@ -13,24 +13,19 @@
 :root{
 
     --body:#000;
+    --titulo:#fff;
+    --subtitulo:#fff;
     --barraMenu: #dc0505;
-    --textoMenu: #fff;
+    
     /* cores da caixinha próximo a ft */
-    --primeiroTitulo: #fff;
-    --primeiroTexto:#ffffff;
-    --BTexto:#20201f;
+        --BTexto:#20201f;
     /* fim da caixinha */
     
-    /* cores caixa de sobre mim */
-    --tituloSobre:#fff;
-    --textoSobre:#fff;
-    /* fim caixa de sobre mim */
-
     /* Outras cores */
     --sombra:5px 5px 20px 2px #474444;
     --sombraCliq:#fff;
     --BackgoundSobre:#20201f;
-    --textoFooter:#fcf2f2;
+    /* --textoFooter:#fcf2f2; */
 
 
     /* variavei para skill */
@@ -48,9 +43,31 @@
     --Bbotao:#dc0505;
     --mensagem: #fff;
     --fonteBotao:#fff;
+
+
+    /* formação */
+
+    --titulo:#fff;
 }
 
 /* fim das variveis */
+
+body {
+    background-color: var(--body);
+    height: 100vh;
+    color: var(--titulo);
+    color: var(--subtitulo);
+}
+h1{
+    font-size: 40px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+  
+
+}
 
 /* menu barra */
 
@@ -66,7 +83,7 @@
     margin: 15px 10px 25px 10px;
     padding: 20px;
     text-align: center;
-    color: var(--textoMenu);
+ 
 }
 
 
@@ -140,20 +157,6 @@
 }
 
 /* fim do menu barra */
-body {
-    background-color: var(--body);
-    height: 100vh;
-}
-h1{
-    font-size: 40px;
-}
-
-.container {
-    max-width: 1280px;
-    margin: 0 auto;
-  
-
-}
 
 /* tudo que está dentro da main */
 /* principal */
@@ -180,9 +183,7 @@ h1{
     margin: 20px auto;
     
 }
-.redeSociais .bi{
-    color: #fff;
-}
+
 .perfil{
     height: 250px;
     border-radius: 50%;
@@ -209,7 +210,6 @@ h1{
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    color: var(--primeiroTexto);
     background-color: var(--BTexto);
 }
 
@@ -221,8 +221,7 @@ h1{
     font-size: 1rem;
     max-width: 800px;
     text-align: justify;
-    color: var(--paragrafoSobre);
-    
+        
 }
 .redeSociais{ 
     display: flex;
@@ -231,7 +230,7 @@ h1{
     padding: 5px;
 }
 h2{
-    color: var(--tituloSobre);
+    
     font-size: 1.5rem;
 }
 .sobre {
@@ -247,7 +246,7 @@ h2{
     padding: 20px;
 }
 .sobre p{
-    color: var(--textoSobre);
+    
     font-size: 1rem;
     margin: 20px;
     padding: 20px;
@@ -277,7 +276,7 @@ h2{
     
 }
 .skill-titulo{
-    color: var(--tituloSkill);
+    
     text-align: center;
     margin: 10px;
     padding: 10px;
@@ -294,14 +293,9 @@ h2{
     border-radius: 10px;
     
 }
-.bi{
-   
-    color: var(--textSkill);
-}
+
 .skill-name{
-    font-size: .8rem;
-    color: var(--textSkill);
-  
+    font-size: .8rem;  
 }
 
 /* fim das skill */
@@ -326,7 +320,6 @@ h2{
     
 }
 .hobbies-titulo{
-    color: var(--tituloSkill);
     text-align: center;
     margin: 10px;
     padding: 10px;
@@ -352,12 +345,39 @@ h2{
 }
 .hobbies-name{
     font-size: .8rem;
-    color: var(--textSkill);
-  
+   
 }
 
 /* Fim de Hobbies */
-
+/* formação */
+.formacao{
+    background-color: #20201f;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.formacao img{
+    height: 128px;
+    padding: 15px;
+    margin: 5px;
+   
+}
+.formacao .formacao-titulo{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.formacao .formacao-subTitulo{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 5px;
+}
+.formacao .formacaoP{
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 5px;
+}
 /* formulario */
 
 .formulario{
@@ -372,16 +392,22 @@ input{
 
 #tituloFormulario{
     font-family: sans-serif;
-    color: var(--tituloFormulario);
-    margin: 7px;
-    padding: 7px;
+    font-size: 1.4rem;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
 }
+
+
 #nomeFormulario{
-    color: var(--nome);
+    
     font-family: sans-serif;
     margin: 10px;
     padding: 10px;
+    font-size: 1.2rem;
+    
 }
+
 #nome{
     background-color: var(--BackgoundSobre);
     margin: 10px;
@@ -397,10 +423,9 @@ input{
 }
 
 #email{
-    color: var(--email);
     font-family: sans-serif;
     padding: 10px;
-    
+    font-size: 1.2rem;
     
 }
 #emailF{
@@ -429,7 +454,7 @@ input, textarea, button{
     
 }
 .divMensagem label{
-    color: var(--mensagem);
+  
     padding: 10px;
     margin: 5px;
     
@@ -437,10 +462,11 @@ input, textarea, button{
 #textMensagem{
     font-size: 1rem;
     text-align: start;
+    padding-left: 0;
 }
 #mensagem{
     color:var(--mensagem);
-   font-size: 1rem;
+    font-size: 1rem;
 }
 textarea{
     background-color: var(--BackgoundSobre);
@@ -479,7 +505,7 @@ footer{
     
 }
 footer p{
-    color: var(--textoFooter);
+   
     font-size: 12px;
     padding: 5px;
    
