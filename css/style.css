@@ -13,24 +13,19 @@
 :root{
 
     --body:#000;
+    --titulo:#fff;
+    --subtitulo:#fff;
     --barraMenu: #dc0505;
-    --textoMenu: #fff;
+    
     /* cores da caixinha próximo a ft */
-    --primeiroTitulo: #fff;
-    --primeiroTexto:#ffffff;
-    --BTexto:#20201f;
+        --BTexto:#20201f;
     /* fim da caixinha */
     
-    /* cores caixa de sobre mim */
-    --tituloSobre:#fff;
-    --textoSobre:#fff;
-    /* fim caixa de sobre mim */
-
     /* Outras cores */
     --sombra:5px 5px 20px 2px #474444;
     --sombraCliq:#fff;
     --BackgoundSobre:#20201f;
-    --textoFooter:#fcf2f2;
+    /* --textoFooter:#fcf2f2; */
 
 
     /* variavei para skill */
@@ -48,9 +43,29 @@
     --Bbotao:#dc0505;
     --mensagem: #fff;
     --fonteBotao:#fff;
+
+
+    /* formação */
+
+    --titulo:#fff;
 }
 
 /* fim das variveis */
+
+body {
+    background-color: var(--body);
+    height: 100vh;
+    color: var(--titulo);
+    color: var(--subtitulo);
+}
+h1{
+    font-size: 40px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
 
 /* menu barra */
 
@@ -66,7 +81,7 @@
     margin: 15px 10px 25px 10px;
     padding: 20px;
     text-align: center;
-    color: var(--textoMenu);
+ 
 }
 
 
@@ -140,20 +155,6 @@
 }
 
 /* fim do menu barra */
-body {
-    background-color: var(--body);
-    height: 100vh;
-}
-h1{
-    font-size: 40px;
-}
-
-.container {
-    max-width: 1280px;
-    margin: 0 auto;
-  
-
-}
 
 /* tudo que está dentro da main */
 /* principal */
@@ -174,15 +175,13 @@ h1{
     visibility: hidden;
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
 }
 .redeSociais{
     margin: 20px auto;
     
 }
-.redeSociais .bi{
-    color: #fff;
-}
+
 .perfil{
     height: 250px;
     border-radius: 50%;
@@ -209,7 +208,6 @@ h1{
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    color: var(--primeiroTexto);
     background-color: var(--BTexto);
 }
 
@@ -221,8 +219,7 @@ h1{
     font-size: 1rem;
     max-width: 800px;
     text-align: justify;
-    color: var(--paragrafoSobre);
-    
+        
 }
 .redeSociais{ 
     display: flex;
@@ -231,27 +228,38 @@ h1{
     padding: 5px;
 }
 h2{
-    color: var(--tituloSobre);
+    
     font-size: 1.5rem;
 }
+.container-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .sobre {
-    margin: 10px;
-    padding: 10px;
+    margin: 0 25px;
+    padding: 5px;
     background-color: var(--BackgoundSobre);
     max-width: 900px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
     visibility: hidden;
 }
 .sobre h2 {
-    margin: 20px;
-    padding: 20px;
+    margin:  10px ;
+    padding: 5px;
 }
 .sobre p{
-    color: var(--textoSobre);
-    font-size: 1rem;
-    margin: 20px;
-    padding: 20px;
     
+    font-size: 1rem;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 100;
+    text-align: justify;
 
 }
 /* fim da principal */
@@ -277,7 +285,7 @@ h2{
     
 }
 .skill-titulo{
-    color: var(--tituloSkill);
+    
     text-align: center;
     margin: 10px;
     padding: 10px;
@@ -294,14 +302,9 @@ h2{
     border-radius: 10px;
     
 }
-.bi{
-   
-    color: var(--textSkill);
-}
+
 .skill-name{
-    font-size: .8rem;
-    color: var(--textSkill);
-  
+    font-size: .8rem;  
 }
 
 /* fim das skill */
@@ -326,7 +329,6 @@ h2{
     
 }
 .hobbies-titulo{
-    color: var(--tituloSkill);
     text-align: center;
     margin: 10px;
     padding: 10px;
@@ -352,65 +354,180 @@ h2{
 }
 .hobbies-name{
     font-size: .8rem;
-    color: var(--textSkill);
-  
+   
 }
 
 /* Fim de Hobbies */
+/* formação */
 
+#formacao-container{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.formacao{
+    background-color: #20201f;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    visibility: hidden;
+}
+.formacao-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.formacao-img{
+    margin: 10px;
+    background-color: #4b4b48;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.formacao img{
+    height: 128px;
+    padding: 5px;
+    margin: 5px;
+       
+}
+ .formacao-img i {
+     padding: 5px;
+     font-size: 64px;
+}
+
+.formacao .formacao-titulo{
+    font-size: 1.2rem;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.formacao .formacao-subTitulo{
+    font-size: .8rem;
+    font-weight: 800;
+    padding: 5px;
+}
+.formacao .formacaoP{
+    font-weight: 100;
+    font-size: .7rem;
+    padding: 5px;
+    display: flex;
+    
+}
+
+/* experiências profissionais */
+
+.containerExp{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+    
+}
+.experiencias{
+    
+    padding: 10px;
+    visibility: hidden;
+}
+.exp-boxPai{
+    display: flex;
+    justify-content: center;
+}
+.experiencias-box{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #20201f;
+   
+}
+.experiencias-box a{
+    margin: 5px;
+    padding: 5px;
+}
+.experiencias .expTitulo{
+    font-size: 1.2rem;
+    padding: 5px;
+    margin: 5px;
+    
+    
+}
+.experiencias .expSubTitulo{
+    font-size: .6rem;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
 /* formulario */
 
 .formulario{
     
     margin: 10px;
     padding: 10px;
+    
 }
 input{
     height: 45px;
-    padding: 5px;
-}
+   }
 
 #tituloFormulario{
     font-family: sans-serif;
-    color: var(--tituloFormulario);
-    margin: 7px;
-    padding: 7px;
+    font-size: 1.4rem;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
 }
-#nomeFormulario{
-    color: var(--nome);
-    font-family: sans-serif;
-    margin: 10px;
+.grupo{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
     padding: 10px;
+   
 }
-#nome{
+#labelNome{
+    font-size: 1rem;
+
+}
+#InputNome{
     background-color: var(--BackgoundSobre);
-    margin: 10px;
+    margin: 10px 20px;
     color: var(--nome);
     width: 300px;
     font-size: 1rem;
+    
 }
-#nome:hover{
+#InputNome:hover{
     background-color: #5c5c58;
 }
-.divEmail{
-    margin: 10px;
-}
 
-#email{
-    color: var(--email);
+#labelEmail{
+    font-size: 1rem;
+}
+#InputEmail{
     font-family: sans-serif;
     padding: 10px;
-    
+    font-size: 1.2rem;
     
 }
-#emailF{
+#InputEmail{
     background-color: var(--BackgoundSobre);
     margin-left: 14px;
     color: var(--email);
     width: 300px;
     font-size: .9rem;
 }
-#emailF:hover{
+#email:hover{
     background-color: #5c5c58;
 }
 fieldset{
@@ -429,7 +546,7 @@ input, textarea, button{
     
 }
 .divMensagem label{
-    color: var(--mensagem);
+  
     padding: 10px;
     margin: 5px;
     
@@ -437,10 +554,11 @@ input, textarea, button{
 #textMensagem{
     font-size: 1rem;
     text-align: start;
+    padding-left: 0;
 }
 #mensagem{
     color:var(--mensagem);
-   font-size: 1rem;
+    font-size: 1rem;
 }
 textarea{
     background-color: var(--BackgoundSobre);
@@ -479,7 +597,7 @@ footer{
     
 }
 footer p{
-    color: var(--textoFooter);
+   
     font-size: 12px;
     padding: 5px;
    

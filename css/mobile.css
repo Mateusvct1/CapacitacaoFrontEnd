@@ -17,10 +17,15 @@
         font-weight: 800;
         
     }
-
     .texto p{
         width: 350px;
     }
+    
+    .formacao{
+        visibility: hidden;
+        width: 800px;
+    }
+   
 }
 @media screen and (max-width:768px) {
    
@@ -55,22 +60,25 @@
     .barra #icone:hover{
         cursor: pointer;
     }
+   
     #nomeFormulario{
         font-size: 1rem;
     }
     
-    #nome{
-        margin: 20px;
+    .sobre{
+        text-align: center;
     }
-    #email{
-        font-size: 1rem;
-    }
-    #emailF{
-        margin: 10px;
-        padding: 0;
+   
+    .formacao{
+        visibility: hidden;
+        width: 600px;
         
     }
-    
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
 @media screen and (max-width:368px) {
@@ -98,13 +106,29 @@
     height: 150px;
 }
 
+.formacao{
+    visibility: hidden;
+    width: 300px;
+    
+}
+.formacao .formacao-titulo{
+    font-size: 1rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 #tituloFormulario{
     text-align: center;
 }
-
+.labelEmail{
+    margin-bottom: 15px;
 }
-
-
+#InputNome{
+    margin: 10px 20px 0 35px;
+   }
+}
 .divMensagem{
     text-align: center;
 }
@@ -113,15 +137,8 @@
     .logo h1{
         font-size: 1rem;
     }
-    .caixa{
-        height: 300px;
-        margin: 10px;
-    }
-   
     
-    .item{
-        font-size: 0.8rem;
-    }
+    
     .principal{
         
      align-content: center; 
@@ -134,6 +151,10 @@
             
         text-align: center;
      
+    }
+    .formacao{
+        visibility: hidden;
+        width: 200px;
     }
     footer .footer_content a{
         font-size: .5rem;

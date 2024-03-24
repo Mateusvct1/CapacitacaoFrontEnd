@@ -33,8 +33,8 @@
                <!-- lista do menu -->
                <nav class="menu">
                   <ul>
-                     <li><a href="#inicio">Inicio</a></li>
-                     <li><a href="#sobre">Sobre</a></li>
+                     <li><a href="#skill">Skill</a></li>
+                     <li><a href="#formacao">Formação</a></li>
                      <li><a href="mailto:mateusvictorct@gmail.com">Contato</a></li>
                   </ul>
                </nav>
@@ -42,9 +42,9 @@
                <i class="fa-solid fa-bars" id="icone" onclick="aparecer()"></i>
                <div class="mobileMenu">
                   <ul id="mobile_list">
-                     <li class="mobilie_item"><a href="#inicio">Inicio</a></li>
-                     <li class="mobilie_item"><a href="#sobre">Sobre</a></li>
-                     <li class="mobilie_item"><a href="#sobre">Contato</a></li>
+                     <li><a href="#skill">Skill</a></li>
+                     <li><a href="#formacao">Formação</a></li>
+                     <li><a href="mailto:mateusvictorct@gmail.com">Contato</a></li>
                   </ul>
                </div>
                <!-- fim da lista do menu -->
@@ -88,18 +88,23 @@
             </section>
             <!-- fim section principal -->
             <!-- sobre -->
-            <section class="sobre">
-               <h2>Sobre mim</h2>
-               <p>
-                  Além da minha paixão por programação e desenvolvimento front-end, também venho estudando Excel
-                  básico. No meu tempo livre, gosto de aprender a tocar violão, ouvir música e jogar. Tenho uma
-                  curiosidade insaciável, especialmente quando se trata de informática. Estou sempre em busca de novos
-                  conhecimentos e habilidades para expandir meu repertório na área de tecnologia da informação.
-               </p>
-            </section>
+            <div class="container-sobre">
+               <div class="sobre-container">
+
+                  <section class="sobre">
+                     <h2>Sobre mim</h2>
+                     <p>
+                        Além da minha paixão por programação e desenvolvimento front-end, também venho estudando Excel
+                        básico. No meu tempo livre, gosto de aprender a tocar violão, ouvir música e jogar. Tenho uma
+                        curiosidade insaciável, especialmente quando se trata de informática. Estou sempre em busca de novos
+                        conhecimentos e habilidades para expandir meu repertório na área de tecnologia da informação.
+                     </p>
+                  </section>
+               </div>
+            </div>
             <!-- fim da sobre -->
             <!-- skil -->
-            <section class="skill">
+            <section class="skill" id="skill">
                <h3 class="skill-titulo">Skill</h3>
                <div class="skill-line">
                   <div class="skill-box">
@@ -154,21 +159,61 @@
                </div>
             </section>
             <!-- fim do Hobbies -->
-            <section class="formacaoAcademica">
-            </section>
+            <!-- formação -->
+          <div class="container" id="formacao-container">
+               <section class="formacao" id="formacao">
+                  <h3 class="formacao-titulo">Formação Acadêmica</h3>
+                  <div class="formacao-box">
+
+                     <div class="formacao-img">
+                        <img src="/img/BrasaoUfersa.png" alt="Brasão da Ufersa">
+                        <h4 class="formacao-subTitulo">Interdisciplinar em Tecnologia da Informação</h4>
+                        <p class="formacaoP">Em andamento - 2022 - UFERSA</p>
+                     </div>
+                     <div class="formacao-img">
+                        <i class="fa-solid fa-school"></i>
+                        <h4 class="formacao-subTitulo">Escola Estadual João Onofre</h4>
+                        <p class="formacaoP"> Ensino Fundamental - 2004 - Lucrécia/RN</p>
+                     </div>
+                     <div class="formacao-img">
+                        <i class="fa-solid fa-school"></i>
+                        <h4 class="formacao-subTitulo">Escola Estadual Josefina Xavier</h4>
+                        <p class="formacaoP"> Ensino Médio - 2007 - Lucrécia/RN</p>
+                     </div>
+                  </div>
+               </section>
+            </div>
+            <!--  fim da formação -->
+            <div class="containerExp">
+               <section class="experiencias">
+                  <h3 class="expTitulo">Experiências Profissionais</h3>
+                  <div class="exp-boxPai">
+
+                     <div class="experiencias-box">
+                        <h4 class="expSubTitulo">Usando dom para trocar a Lâmpada</h4>
+                        <a href="https://mateusvct1.github.io/lampada/"><i class="bi bi-lightbulb-fill"></i></a>
+                     </div>
+                     <div class="experiencias-box">
+                        <h4 class="expSubTitulo">Projeto GitHub</h4>
+                        <a href="https://github.com/Mateusvct1/ProjetoGit"><i class="bi bi-git"></i></a>
+                     </div>
+                     
+                  </div>
+               </section>
+            </div>
             <!-- formulario -->
             <section class="formulario">
                <h1 id="tituloFormulario">Contato</h1>
-               <br>
-               <form action="https://formsubmit.co/mateusvictor1@hotmail.com" method="POST" id="#form">
+           
+               <form action="https://formsubmit.co/mateusvictor1@hotmail.com" method="POST" id="form">
                   <fieldset class="grupo">
-                     <div>
-                        <label for="nome" id="nomeFormulario">Nome:</label>
-                        <input type="text" name="nome" id="nome" required>
+                     <div id="DivNome">
+                        <label for="InputNome" id="labelNome">Nome:</label>
+                        <input type="text" name="nome" id="InputNome" autocomplete="on" required>
                      </div>
-                     <div class="divEmail">
-                        <label for="emailF" id="email">E-mail:</label>
-                        <input type="email" name="email" id="emailF" required>
+                     <div id="DivEmail">
+                        <label for="InputEmail" id="labelEmail">E-mail:</label>
+                        <input type="email" name="email" id="InputEmail" autocomplete="on" required>
                      </div>
                   </fieldset>
                   <div class="divMensagem">
