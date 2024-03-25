@@ -1,5 +1,5 @@
-from django.apps import AppConfig
 # Importa a classe AppConfig
+from django.apps import AppConfig
 
 # Define uma nova classe
 class ClientesConfig(AppConfig):
