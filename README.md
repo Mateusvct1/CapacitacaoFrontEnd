@@ -1,10 +1,6 @@
 #   CAPACITAÇÃO DE FRONTE-END
 
-## ESTUDOS SOBRE FLEXBOX
-## ESTUDOS SOBRE GRID
-
-### Implementando um projeto de portfolio
-
+## Implementando um projeto de portfolio
 
 ##### REFERÊNCIAS:
 
